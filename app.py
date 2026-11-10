@@ -129,7 +129,7 @@ else:
     st.subheader("結果をXで共有する")
     text = share_text(result)
     st.text_area("共有テキスト（コピーして使えます）", value=text, height=140)
-    st.caption("公開時はここに診断ページのURLが入ります。")
+    st.caption("ねむサブ診断 https://nemusabu-shindan.onrender.com")
 
 st.divider()
 st.caption(
